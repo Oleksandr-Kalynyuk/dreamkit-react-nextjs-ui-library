@@ -16,6 +16,19 @@ type ChangelogEntry = {
 
 const changelog: ChangelogEntry[] = [
   {
+    version: "0.3.3",
+    date: "September 6, 2026",
+    type: "New",
+    title: "DreamKit Changelog",
+    description:
+      "New  design and UI bug fix",
+    changes: [
+      "Added new logo for browser window.",
+      "Fixed bug with animation for 'Magnetic Glow Button'.",
+      "Fixed sidebar with components to make it not appear in: 'Changelog', 'Privace Policy', 'Terms of Service'."
+    ],
+  },
+  {
     version: "0.3.1",
     date: "September 4, 2026",
     type: "New",
@@ -98,7 +111,7 @@ export function Changelog() {
             ease: [0.22, 1, 0.36, 1],
           }}
         >
-          <SectionLabel index="03">CHANGELOG</SectionLabel>
+          <SectionLabel index="">CHANGELOG</SectionLabel>
 
           <h1 className="mt-4 max-w-2xl text-4xl font-semibold tracking-[-0.04em] text-zinc-100 sm:text-5xl">
             What is new in{" "}
