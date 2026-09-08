@@ -1,14 +1,21 @@
 "use client";
 
 import { ComponentViewer } from "@/components/shared/component-viewer";
+
 import {
   OrbitSpinnerLoader,
   orbitSpinnerLoaderCode,
 } from "./orbit-spinner-loader";
+
 import {
   PulseBarLoader,
   pulseBarLoaderCode,
 } from "./pulse-bar-loader";
+
+import {
+  BeamScanLoader,
+  beamScanLoaderCode,
+} from "./beam-scan-loader";
 
 export default function LoadersShowcase() {
   return (
@@ -25,6 +32,13 @@ export default function LoadersShowcase() {
         code={pulseBarLoaderCode}
       >
         <PulseBarLoader />
+      </ComponentViewer>
+
+      <ComponentViewer
+        title="Beam Scan Loader"
+        code={beamScanLoaderCode}
+      >
+        <BeamScanLoader />
       </ComponentViewer>
     </div>
   );
