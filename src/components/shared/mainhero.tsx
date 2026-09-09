@@ -73,7 +73,7 @@ export default function MainHero() {
 
                 <span className="h-3 w-px bg-white/10" />
 
-                <span>10+ free components</span>
+                <span>15+ free components</span>
 
                 <ArrowRight className="h-3.5 w-3.5 text-zinc-600 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:text-amber-300" />
               </Link>

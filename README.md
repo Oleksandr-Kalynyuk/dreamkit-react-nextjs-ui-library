@@ -13,7 +13,7 @@ No complicated setup. No runtime dependency. Just beautiful components with sour
 <p align="center">
   <a href="https://dreamkit-phi.vercel.app/">
     <img
-      src=".github/assets/main_img.png"
+      src=".github/assets/dreamkit_main_img.png"
       alt="DreamKit — Animated UI Components"
       width="100%"
     />

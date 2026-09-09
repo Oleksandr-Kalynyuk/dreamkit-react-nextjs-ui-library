@@ -16,6 +16,19 @@ type ChangelogEntry = {
 
 const changelog: ChangelogEntry[] = [
   {
+    version: "0.3.5",
+    date: "September 8, 2026",
+    type: "Improved",
+    title: "DreamKit Changelog",
+    description:
+      "Small improvments.",
+    changes: [
+      "Changed browser logo.",
+      "Corrected README on github.",
+      "Added more accurate number for amount of elements on nero section to 15+."
+    ],
+  },
+  {
     version: "0.3.4",
     date: "September 8, 2026",
     type: "New",
