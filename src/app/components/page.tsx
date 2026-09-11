@@ -7,6 +7,7 @@ import {
   SquareDot,
   Loader2,
   ArrowRight,
+  Copy,
 } from "lucide-react";
 
 import { countComponents } from "@/lib/component-counts";
@@ -23,12 +24,20 @@ const categories = [
   {
     title: "Hero Sections",
     description:
-      "High-impact SaaS landing headers with dynamic lighting.",
+      "Proffesional looking Hero Sections for any SaaS.",
     icon: Layout,
     href: "/components/hero",
     folder: "hero",
 
   },
+  {
+  title: "Animated Clipboards",
+  description:
+    "Polished copy-to-clipboard interactions for code, text, links, and messages.",
+  icon: Copy,
+  href: "/components/clipboards",
+  folder: "clipboards",
+},
   {
     title: "Cards & Bento Grid",
     description:

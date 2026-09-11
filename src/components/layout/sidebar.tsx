@@ -11,7 +11,7 @@ import {
   Box, 
   SquareDot, 
   Loader2, 
-  Search 
+  Copy 
 } from "lucide-react";
 
 const navItems = [
@@ -19,6 +19,7 @@ const navItems = [
   { name: "Hero", href: "/components/hero", icon: Layout },
   { name: "Cursor", href: "/components/cursor", icon: MousePointerClick },
   { name: "Buttons", href: "/components/buttons", icon: SquarePlus },
+  { name: "Clipboards", href: "/components/clipboards", icon: Copy },
   { name: "Cards", href: "/components/cards", icon: Box },
   { name: "Backgrounds", href: "/components/backgrounds", icon: SquareDot },
   { name: "Loaders", href: "/components/loaders", icon: Loader2 },
